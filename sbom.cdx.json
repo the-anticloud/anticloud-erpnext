@@ -1,0 +1,459 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:1762ea6e-d4dd-5814-afd5-72d131bcee50",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T15:01:35Z",
+    "component": {
+      "type": "application",
+      "name": "ERPNEXT",
+      "version": "d607837e80fa",
+      "bom-ref": "pkg:generic/anticloud/ERPNEXT@d607837e80fa",
+      "purl": "pkg:generic/anticloud/ERPNEXT@d607837e80fa",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "d607837e80fa731e2b3b285c9873f3f1185653bc"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/frappe/erpnext"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "onscan.js",
+      "version": "^1.5.2",
+      "purl": "pkg:npm/onscan.js@^1.5.2",
+      "bom-ref": "npm/onscan.js@^1.5.2"
+    },
+    {
+      "type": "library",
+      "name": "Unidecode",
+      "version": "~=1.4.0",
+      "purl": "pkg:pypi/unidecode@1.4.0",
+      "bom-ref": "pypi/Unidecode@~=1.4.0"
+    },
+    {
+      "type": "library",
+      "name": "barcodenumber",
+      "version": "~=0.5.0",
+      "purl": "pkg:pypi/barcodenumber@0.5.0",
+      "bom-ref": "pypi/barcodenumber@~=0.5.0"
+    },
+    {
+      "type": "library",
+      "name": "rapidfuzz",
+      "version": "~=3.14.3",
+      "purl": "pkg:pypi/rapidfuzz@3.14.3",
+      "bom-ref": "pypi/rapidfuzz@~=3.14.3"
+    },
+    {
+      "type": "library",
+      "name": "holidays",
+      "version": "~=0.87",
+      "purl": "pkg:pypi/holidays@0.87",
+      "bom-ref": "pypi/holidays@~=0.87"
+    },
+    {
+      "type": "library",
+      "name": "googlemaps",
+      "version": "~=4.10.0",
+      "purl": "pkg:pypi/googlemaps@4.10.0",
+      "bom-ref": "pypi/googlemaps@~=4.10.0"
+    },
+    {
+      "type": "library",
+      "name": "plaid-python",
+      "version": "~=7.2.1",
+      "purl": "pkg:pypi/plaid-python@7.2.1",
+      "bom-ref": "pypi/plaid-python@~=7.2.1"
+    },
+    {
+      "type": "library",
+      "name": "python-youtube",
+      "version": "~=0.9.9",
+      "purl": "pkg:pypi/python-youtube@0.9.9",
+      "bom-ref": "pypi/python-youtube@~=0.9.9"
+    },
+    {
+      "type": "library",
+      "name": "pypng",
+      "version": "~=0.20220715.0",
+      "purl": "pkg:pypi/pypng@0.20220715.0",
+      "bom-ref": "pypi/pypng@~=0.20220715.0"
+    },
+    {
+      "type": "library",
+      "name": "mt-940",
+      "version": ">=4.26.0",
+      "purl": "pkg:pypi/mt-940@4.26.0",
+      "bom-ref": "pypi/mt-940@>=4.26.0"
+    },
+    {
+      "type": "library",
+      "name": "pdfplumber",
+      "version": ">=0.11.0",
+      "purl": "pkg:pypi/pdfplumber@0.11.0",
+      "bom-ref": "pypi/pdfplumber@>=0.11.0"
+    },
+    {
+      "type": "library",
+      "name": "Convert",
+      "version": "unspecified",
+      "purl": "pkg:pypi/convert",
+      "bom-ref": "pypi/Convert@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "@dnd-kit/core",
+      "version": "^6.3.1",
+      "purl": "pkg:npm/@dnd-kit/core@^6.3.1",
+      "bom-ref": "npm/@dnd-kit/core@^6.3.1"
+    },
+    {
+      "type": "library",
+      "name": "@dnd-kit/sortable",
+      "version": "^10.0.0",
+      "purl": "pkg:npm/@dnd-kit/sortable@^10.0.0",
+      "bom-ref": "npm/@dnd-kit/sortable@^10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@dnd-kit/utilities",
+      "version": "^3.2.2",
+      "purl": "pkg:npm/@dnd-kit/utilities@^3.2.2",
+      "bom-ref": "npm/@dnd-kit/utilities@^3.2.2"
+    },
+    {
+      "type": "library",
+      "name": "@tailwindcss/vite",
+      "version": "^4.3.2",
+      "purl": "pkg:npm/@tailwindcss/vite@^4.3.2",
+      "bom-ref": "npm/@tailwindcss/vite@^4.3.2"
+    },
+    {
+      "type": "library",
+      "name": "@tanstack/react-table",
+      "version": "^8.21.3",
+      "purl": "pkg:npm/@tanstack/react-table@^8.21.3",
+      "bom-ref": "npm/@tanstack/react-table@^8.21.3"
+    },
+    {
+      "type": "library",
+      "name": "@tanstack/react-virtual",
+      "version": "^3.13.24",
+      "purl": "pkg:npm/@tanstack/react-virtual@^3.13.24",
+      "bom-ref": "npm/@tanstack/react-virtual@^3.13.24"
+    },
+    {
+      "type": "library",
+      "name": "@vitejs/plugin-react",
+      "version": "^6.0.3",
+      "purl": "pkg:npm/@vitejs/plugin-react@^6.0.3",
+      "bom-ref": "npm/@vitejs/plugin-react@^6.0.3"
+    },
+    {
+      "type": "library",
+      "name": "chrono-node",
+      "version": "^2.9.1",
+      "purl": "pkg:npm/chrono-node@^2.9.1",
+      "bom-ref": "npm/chrono-node@^2.9.1"
+    },
+    {
+      "type": "library",
+      "name": "class-variance-authority",
+      "version": "^0.7.1",
+      "purl": "pkg:npm/class-variance-authority@^0.7.1",
+      "bom-ref": "npm/class-variance-authority@^0.7.1"
+    },
+    {
+      "type": "library",
+      "name": "clsx",
+      "version": "^2.1.1",
+      "purl": "pkg:npm/clsx@^2.1.1",
+      "bom-ref": "npm/clsx@^2.1.1"
+    },
+    {
+      "type": "library",
+      "name": "cmdk",
+      "version": "^1.1.1",
+      "purl": "pkg:npm/cmdk@^1.1.1",
+      "bom-ref": "npm/cmdk@^1.1.1"
+    },
+    {
+      "type": "library",
+      "name": "date-fns",
+      "version": "^4.1.0",
+      "purl": "pkg:npm/date-fns@^4.1.0",
+      "bom-ref": "npm/date-fns@^4.1.0"
+    },
+    {
+      "type": "library",
+      "name": "dayjs",
+      "version": "^1.11.20",
+      "purl": "pkg:npm/dayjs@^1.11.20",
+      "bom-ref": "npm/dayjs@^1.11.20"
+    },
+    {
+      "type": "library",
+      "name": "frappe-react-sdk",
+      "version": "^1.17.1",
+      "purl": "pkg:npm/frappe-react-sdk@^1.17.1",
+      "bom-ref": "npm/frappe-react-sdk@^1.17.1"
+    },
+    {
+      "type": "library",
+      "name": "fuse.js",
+      "version": "^7.3.0",
+      "purl": "pkg:npm/fuse.js@^7.3.0",
+      "bom-ref": "npm/fuse.js@^7.3.0"
+    },
+    {
+      "type": "library",
+      "name": "jotai",
+      "version": "^2.20.2",
+      "purl": "pkg:npm/jotai@^2.20.2",
+      "bom-ref": "npm/jotai@^2.20.2"
+    },
+    {
+      "type": "library",
+      "name": "jotai-family",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/jotai-family@^1.1.0",
+      "bom-ref": "npm/jotai-family@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "lodash.isplainobject",
+      "version": "^4.0.6",
+      "purl": "pkg:npm/lodash.isplainobject@^4.0.6",
+      "bom-ref": "npm/lodash.isplainobject@^4.0.6"
+    },
+    {
+      "type": "library",
+      "name": "lucide-react",
+      "version": "^1.14.0",
+      "purl": "pkg:npm/lucide-react@^1.14.0",
+      "bom-ref": "npm/lucide-react@^1.14.0"
+    },
+    {
+      "type": "library",
+      "name": "radix-ui",
+      "version": "^1.6.1",
+      "purl": "pkg:npm/radix-ui@^1.6.1",
+      "bom-ref": "npm/radix-ui@^1.6.1"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^19.2.7",
+      "purl": "pkg:npm/react@^19.2.7",
+      "bom-ref": "npm/react@^19.2.7"
+    },
+    {
+      "type": "library",
+      "name": "react-currency-input-field",
+      "version": "^4.0.5",
+      "purl": "pkg:npm/react-currency-input-field@^4.0.5",
+      "bom-ref": "npm/react-currency-input-field@^4.0.5"
+    },
+    {
+      "type": "library",
+      "name": "react-day-picker",
+      "version": "9.14.0",
+      "purl": "pkg:npm/react-day-picker@9.14.0",
+      "bom-ref": "npm/react-day-picker@9.14.0"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^19.2.7",
+      "purl": "pkg:npm/react-dom@^19.2.7",
+      "bom-ref": "npm/react-dom@^19.2.7"
+    },
+    {
+      "type": "library",
+      "name": "react-dropzone",
+      "version": "^15.0.0",
+      "purl": "pkg:npm/react-dropzone@^15.0.0",
+      "bom-ref": "npm/react-dropzone@^15.0.0"
+    },
+    {
+      "type": "library",
+      "name": "react-hook-form",
+      "version": "^7.75.0",
+      "purl": "pkg:npm/react-hook-form@^7.75.0",
+      "bom-ref": "npm/react-hook-form@^7.75.0"
+    },
+    {
+      "type": "library",
+      "name": "react-hotkeys-hook",
+      "version": "^5.3.2",
+      "purl": "pkg:npm/react-hotkeys-hook@^5.3.2",
+      "bom-ref": "npm/react-hotkeys-hook@^5.3.2"
+    },
+    {
+      "type": "library",
+      "name": "react-markdown",
+      "version": "^10.1.0",
+      "purl": "pkg:npm/react-markdown@^10.1.0",
+      "bom-ref": "npm/react-markdown@^10.1.0"
+    },
+    {
+      "type": "library",
+      "name": "react-router",
+      "version": "^8.3.0",
+      "purl": "pkg:npm/react-router@^8.3.0",
+      "bom-ref": "npm/react-router@^8.3.0"
+    },
+    {
+      "type": "library",
+      "name": "rehype-raw",
+      "version": "^7.0.0",
+      "purl": "pkg:npm/rehype-raw@^7.0.0",
+      "bom-ref": "npm/rehype-raw@^7.0.0"
+    },
+    {
+      "type": "library",
+      "name": "remark-gfm",
+      "version": "^4.0.1",
+      "purl": "pkg:npm/remark-gfm@^4.0.1",
+      "bom-ref": "npm/remark-gfm@^4.0.1"
+    },
+    {
+      "type": "library",
+      "name": "safe-expr-eval",
+      "version": "^1.0.4",
+      "purl": "pkg:npm/safe-expr-eval@^1.0.4",
+      "bom-ref": "npm/safe-expr-eval@^1.0.4"
+    },
+    {
+      "type": "library",
+      "name": "sonner",
+      "version": "^2.0.7",
+      "purl": "pkg:npm/sonner@^2.0.7",
+      "bom-ref": "npm/sonner@^2.0.7"
+    },
+    {
+      "type": "library",
+      "name": "tailwind-merge",
+      "version": "^3.5.0",
+      "purl": "pkg:npm/tailwind-merge@^3.5.0",
+      "bom-ref": "npm/tailwind-merge@^3.5.0"
+    },
+    {
+      "type": "library",
+      "name": "tailwindcss",
+      "version": "^4.3.0",
+      "purl": "pkg:npm/tailwindcss@^4.3.0",
+      "bom-ref": "npm/tailwindcss@^4.3.0"
+    },
+    {
+      "type": "library",
+      "name": "tw-animate-css",
+      "version": "^1.4.0",
+      "purl": "pkg:npm/tw-animate-css@^1.4.0",
+      "bom-ref": "npm/tw-animate-css@^1.4.0"
+    },
+    {
+      "type": "library",
+      "name": "usehooks-ts",
+      "version": "^3.1.1",
+      "purl": "pkg:npm/usehooks-ts@^3.1.1",
+      "bom-ref": "npm/usehooks-ts@^3.1.1"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "^8.2.1",
+      "purl": "pkg:npm/vite@^8.2.1",
+      "bom-ref": "npm/vite@^8.2.1"
+    },
+    {
+      "type": "library",
+      "name": "@eslint/js",
+      "version": "^9.39.5",
+      "purl": "pkg:npm/@eslint/js@^9.39.5",
+      "bom-ref": "npm/@eslint/js@^9.39.5"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^25.3.0",
+      "purl": "pkg:npm/@types/node@^25.3.0",
+      "bom-ref": "npm/@types/node@^25.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "^19.2.7",
+      "purl": "pkg:npm/@types/react@^19.2.7",
+      "bom-ref": "npm/@types/react@^19.2.7"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "^19.2.3",
+      "purl": "pkg:npm/@types/react-dom@^19.2.3",
+      "bom-ref": "npm/@types/react-dom@^19.2.3"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^10.8.1",
+      "purl": "pkg:npm/eslint@^10.8.1",
+      "bom-ref": "npm/eslint@^10.8.1"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-react-hooks",
+      "version": "^7.1.1",
+      "purl": "pkg:npm/eslint-plugin-react-hooks@^7.1.1",
+      "bom-ref": "npm/eslint-plugin-react-hooks@^7.1.1"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-react-refresh",
+      "version": "^0.5.3",
+      "purl": "pkg:npm/eslint-plugin-react-refresh@^0.5.3",
+      "bom-ref": "npm/eslint-plugin-react-refresh@^0.5.3"
+    },
+    {
+      "type": "library",
+      "name": "globals",
+      "version": "^16.5.0",
+      "purl": "pkg:npm/globals@^16.5.0",
+      "bom-ref": "npm/globals@^16.5.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "~5.9.3",
+      "purl": "pkg:npm/typescript@~5.9.3",
+      "bom-ref": "npm/typescript@~5.9.3"
+    },
+    {
+      "type": "library",
+      "name": "typescript-eslint",
+      "version": "^8.67.0",
+      "purl": "pkg:npm/typescript-eslint@^8.67.0",
+      "bom-ref": "npm/typescript-eslint@^8.67.0"
+    }
+  ]
+}
